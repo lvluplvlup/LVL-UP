@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول - نظام رفع المستوى</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <i class="fas fa-lock"></i>
+            <h2>🔐 تسجيل الدخول</h2>
+            <p>أدخل بيانات الدخول للوصول إلى النظام</p>
+        </div>
+        
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="username"><i class="fas fa-user"></i> اسم المستخدم:</label>
+                <input type="text" id="username" class="form-control" placeholder="أدخل اسم المستخدم" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password"><i class="fas fa-key"></i> كلمة المرور:</label>
+                <input type="password" id="password" class="form-control" placeholder="أدخل كلمة المرور" required>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="btn-submit">
+                    <i class="fas fa-sign-in-alt"></i> دخول
+                </button>
+            </div>
+        </form>
+        
+        <div class="login-info">
+            <div class="info-card">
+                <h4><i class="fas fa-user-cog"></i> حساب الأدمن:</h4>
+                <p><strong>User:</strong> ADMIIN</p>
+                <p><strong>Pass:</strong> ADMIIN</p>
+            </div>
+            
+            <div class="info-card">
+                <h4><i class="fas fa-users"></i> حسابات تجريبية:</h4>
+                <p><strong>User:</strong> player1</p>
+                <p><strong>Pass:</strong> playerpass123</p>
+            </div>
+        </div>
+        
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-right"></i> العودة للصفحة الرئيسية
+        </a>
+        
+        <div class="developer-info">
+            <h4>👨‍💻 المطور:</h4>
+            <p><strong>YouTube:</strong> <a href="https://youtube.com/@xvx_stories" target="_blank">@xvx_stories</a></p>
+            <p><strong>TikTok:</strong> d09_l7</p>
+            <p><strong>Username:</strong> d09_l7</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+  </html>
