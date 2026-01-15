@@ -1,0 +1,86 @@
+{
+  "system_info": {
+    "name": "نظام رفع المستوى للألعاب",
+    "version": "1.0.0",
+    "developer": {
+      "username": "d09_l7",
+      "youtube": "https://youtube.com/@xvx_stories",
+      "tiktok": "d09_l7"
+    },
+    "created_at": "2024-01-15"
+  },
+  "admin_account": {
+    "username": "ADMIIN",
+    "password": "ADMIIN",
+    "role": "admin",
+    "permissions": [
+      "add_users",
+      "delete_users",
+      "edit_users",
+      "view_all_requests",
+      "export_data"
+    ]
+  },
+  "user_accounts": [
+    {
+      "id": 1,
+      "username": "player1",
+      "password": "playerpass123",
+      "upgrades_left": 1,
+      "is_admin": false,
+      "created_at": "2024-01-15T10:30:00Z",
+      "last_login": null
+    },
+    {
+      "id": 2,
+      "username": "gamer_pro",
+      "password": "gamerpass456",
+      "upgrades_left": 1,
+      "is_admin": false,
+      "created_at": "2024-01-15T11:15:00Z",
+      "last_login": null
+    },
+    {
+      "id": 3,
+      "username": "game_master",
+      "password": "masterpass789",
+      "upgrades_left": 1,
+      "is_admin": false,
+      "created_at": "2024-01-15T12:00:00Z",
+      "last_login": null
+    }
+  ],
+  "upgrade_requests": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "game_uid": "PLAYER_0012345",
+      "game_password": "encrypted_pass_here",
+      "allikk": "allikk_data_sample_1",
+      "request_name": "Level Up #1",
+      "status": "offline",
+      "notes": "طلب رفع مستوى للمرة الأولى",
+      "created_at": "2024-01-15T10:35:00Z",
+      "updated_at": "2024-01-15T10:35:00Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "game_uid": "GAMER_0056789",
+      "game_password": "encrypted_pass_here_2",
+      "allikk": "allikk_data_sample_2",
+      "request_name": "Level Up #1",
+      "status": "online",
+      "notes": "الطلب قيد التشغيل حالياً",
+      "created_at": "2024-01-15T11:20:00Z",
+      "updated_at": "2024-01-15T11:25:00Z"
+    }
+  ],
+  "system_settings": {
+    "max_upgrades_per_user": 1,
+    "admin_upgrades_limit": "unlimited",
+    "default_status": "offline",
+    "auto_logout_minutes": 30,
+    "backup_interval_hours": 24
+  }
+}
